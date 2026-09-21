@@ -16,8 +16,8 @@
 
 | Участник            | Роль                                                    |
 | ------------------- | ------------------------------------------------------- |
-| **Ярошенко Андрей** | Backend-разработчик, Тестировщик, Архитектор, DevOps    |
-| **Мягких Кирилл**   | Frontend-разработчик, Тестировщик, Руководитель проекта |
+| **Ярошенко Андрей** | Backend-разработчик, Архитектор, DevOps                 |
+| **Мягких Кирилл**   | Frontend-разработчик, Руководитель проекта              |
 | **Суворов Максим**  | Аналитик, Тестировщик                                   |
 
 ## 4. Трекер задач
@@ -34,22 +34,25 @@
   <img src="https://skillicons.dev/icons?i=java,spring,postgres,maven" />
 </p>
 
-* **Java 21** — основной язык backend-разработки
-* **Spring Boot** — разработка серверного приложения
-* **Spring Security** — аутентификация и авторизация
-* **Spring Data JPA** — работа с базой данных
-* **PostgreSQL** — реляционная база данных
-* **Maven** — управление зависимостями и сборка проекта
+* <img src="https://skillicons.dev/icons?i=java" width="20" height="20" alt="Java" /> **Java 21** — основной язык backend-разработки
+* <img src="https://skillicons.dev/icons?i=spring" width="20" height="20" alt="Spring Boot" /> **Spring Boot** — разработка серверного приложения
+* <img src="https://skillicons.dev/icons?i=spring" width="20" height="20" alt="Spring Security" /> **Spring Security** — аутентификация и авторизация
+* <img src="https://skillicons.dev/icons?i=spring" width="20" height="20" alt="Spring Data JPA" /> **Spring Data JPA** — работа с базой данных
+* <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt="PostgreSQL" /> **PostgreSQL** — реляционная база данных
+* <img src="https://skillicons.dev/icons?i=maven" width="20" height="20" alt="Maven" /> **Maven** — управление зависимостями и сборка проекта
 
 ### Frontend
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=vue,html,css" />
+  <img src="https://cdn.simpleicons.org/axios/5A29E4" width="48" height="48" alt="Axios" />
 </p>
 
-* **Vue.js** — разработка пользовательского интерфейса
-* **HTML5** — структура веб-приложения
-* **CSS3** — стилизация интерфейса
+* <img src="https://skillicons.dev/icons?i=vue" width="20" height="20" alt="Vue.js" /> **Vue.js** — разработка пользовательского интерфейса
+* <img src="https://skillicons.dev/icons?i=html" width="20" height="20" alt="HTML5" /> **HTML5** — структура веб-приложения
+* <img src="https://skillicons.dev/icons?i=css" width="20" height="20" alt="CSS3" /> **CSS3** — стилизация интерфейса
+* <img src="https://skillicons.dev/icons?i=vue" width="20" height="20" alt="Vue Router" /> **Vue Router** — маршрутизация
+* <img src="https://cdn.simpleicons.org/axios/5A29E4" width="20" height="20" alt="Axios" /> **Axios** — HTTP-запросы к Backend
 
 ### Инфраструктура и DevOps
 
@@ -57,17 +60,23 @@
   <img src="https://skillicons.dev/icons?i=docker,nginx,git,github" />
 </p>
 
-* **Docker** — контейнеризация приложения
-* **Docker Compose** — управление набором контейнеров
-* **Nginx** — веб-сервер и reverse proxy
-* **Git** — система контроля версий
-* **GitHub** — хранение исходного кода и управление проектом
+* <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt="Docker" /> **Docker** — контейнеризация приложения
+* <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt="Docker Compose" /> **Docker Compose** — управление набором контейнеров
+* <img src="https://skillicons.dev/icons?i=nginx" width="20" height="20" alt="Nginx" /> **Nginx** — веб-сервер и reverse proxy
+* <img src="https://skillicons.dev/icons?i=git" width="20" height="20" alt="Git" /> **Git** — система контроля версий
+* <img src="https://skillicons.dev/icons?i=github" width="20" height="20" alt="GitHub" /> **GitHub** — хранение исходного кода и управление проектом
 
 ### Дополнительные технологии
 
-* **REST API** — взаимодействие frontend и backend
-* **JWT** — аутентификация пользователей
-* **OpenAPI / Swagger** — документация и тестирование API
+<p align="center">
+  <img src="https://cdn.simpleicons.org/openapiinitiative/6BA539" width="48" height="48" alt="REST API" />
+  <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="48" height="48" alt="JWT" />
+  <img src="https://cdn.simpleicons.org/swagger/85EA2D" width="48" height="48" alt="OpenAPI / Swagger" />
+</p>
+
+* <img src="https://cdn.simpleicons.org/openapiinitiative/6BA539" width="20" height="20" alt="REST API" /> **REST API** — взаимодействие frontend и backend
+* <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="20" height="20" alt="JWT" /> **JWT** — аутентификация пользователей
+* <img src="https://cdn.simpleicons.org/swagger/85EA2D" width="20" height="20" alt="OpenAPI / Swagger" /> **OpenAPI / Swagger** — документация и тестирование API
 
 ## 6. Общая схема системы
 
@@ -88,14 +97,9 @@
               │ Java + Spring Boot  │
               └──────────┬──────────┘
                          │
-             ┌───────────┼───────────┐
-             │           │           │
-             ▼           ▼           ▼
-       Анализ продаж  Анализ      Рекомендации
-                     остатков      по закупкам
+                         │        
                          │
                          ▼
               ┌─────────────────────┐
               │     PostgreSQL      │
               └─────────────────────┘
-```
