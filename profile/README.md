@@ -24,7 +24,7 @@
 
 Задачи проекта ведутся в трекере:
 
-**[GitHub Projects](https://github.com/orgs/Terafluxxx/projects/1/views/1)**
+**[GitHub Projects](https://github.com/orgs/Terafluxxx/projects/4)**
 
 ## 5. Технологический стек
 
