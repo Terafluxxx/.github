@@ -103,3 +103,33 @@
               ┌─────────────────────┐
               │     PostgreSQL      │
               └─────────────────────┘
+              
+```
+
+## 7. Документация
+
+Проектная документация находится в каталоге [`docs/`](docs/).
+
+```text
+docs/
+├── bpmn/
+│   ├── as_is.png
+│   ├── as_is.puml
+│   ├── to_be.png
+│   └── to_be.puml
+├── requirements/
+│   ├── functional.md
+│   └── non_functional.md
+├── architecture/
+│   ├── context_diagram.png
+│   ├── context_diagram.puml
+│   ├── container_diagram.png
+│   └── container_diagram.puml
+├── data/
+│   ├── er_diagram.png
+│   └── er_diagram.dbml
+└── adr/
+    └── 001_architecture_style.md
+```
+
+В документации представлены текущий и целевой бизнес-процессы, C4-диаграммы, функциональные и нефункциональные требования, модель данных и архитектурное решение.
